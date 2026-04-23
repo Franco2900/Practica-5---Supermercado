@@ -1,0 +1,51 @@
+/* Ofertas.css */
+
+/* Contenedor general */
+.ofertas-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Tarjeta de cada oferta */
+.oferta-card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  height: 100%;
+}
+
+/* Imagen de la oferta */
+.oferta-img {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+/* Cuerpo de la tarjeta */
+.oferta-body {
+  background-color: rgba(51, 45, 45, 0.5);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Precio original tachado */
+.precio-original {
+  text-decoration: line-through;
+  color: #dc3545; /* rojo Bootstrap */
+  padding: 0 0.5rem;
+  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Precio en oferta */
+.precio-oferta {
+  font-weight: bold;
+  color: #198754; /* verde Bootstrap */
+  padding: 0 0.5rem;
+  border-radius: 0.25rem;
+  background-color: rgba(255,255,255,0.7);
+}
+
+/* Texto de ahorro */
+.texto-ahorro {
+  color: #ffc107; /* amarillo Bootstrap */
+  font-weight: 500;
+}

@@ -1,0 +1,17 @@
+.contacto-page {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.contacto-page h1 {
+  font-weight: bold;
+}
+
+.contacto-page h3 {
+  color: #0d6efd; /* azul bootstrap */
+}
+
+.contacto-page form .btn {
+  width: 100%;
+}

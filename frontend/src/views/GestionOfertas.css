@@ -1,0 +1,6 @@
+.card-img-top {
+  width: 100%;        /* ocupa todo el ancho del contenedor */
+  height: 200px;      /* altura fija */
+  object-fit: cover;  /* recorta la imagen manteniendo proporción */
+  border-radius: 8px; /* opcional, esquinas redondeadas */
+}

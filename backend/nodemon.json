@@ -1,0 +1,6 @@
+{ 
+    "exec": "node app.js", 
+    "events": { 
+        "restart": "cls" 
+    } 
+}

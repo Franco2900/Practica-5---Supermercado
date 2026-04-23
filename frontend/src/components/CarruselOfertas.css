@@ -1,0 +1,38 @@
+/* CarruselOfertas.css */
+
+/* Imagen dentro del carrusel */
+.carrusel-oferta-img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Contenedor del texto */
+.carrusel-oferta-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Precio original tachado */
+/*.precio-original {
+  text-decoration: line-through;
+  color: #dc3545;
+  padding: 0 0.5rem;
+  border-radius: 0.25rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+*/
+/* Precio en oferta */
+/*.precio-oferta {
+  font-weight: bold;
+  color: #198754;
+  padding: 0 0.5rem;
+  border-radius: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+*/
+/* Texto de ahorro */
+/*.texto-ahorro {
+  color: #ffc107;
+  font-weight: 500;
+}*/

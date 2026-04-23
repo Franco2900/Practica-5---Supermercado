@@ -1,0 +1,6 @@
+Agregar al navbar si el usuario esta logueado como cliente "Solicitar entrega"
+
+Agregar al navbar que vista esta activa (excepto el home)
+<li className="nav-item">
+    <a className="nav-link active" aria-current="page" href="#">Home</a>
+</li>

@@ -1,0 +1,83 @@
+.card {
+  width: 18rem;
+  position: relative;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.icon-heart-black {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  text-shadow: 0 0 2px #fff, 0 0 4px #fff;
+}
+
+.icon-heart-red {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  text-shadow: 0 0 2px #fff, 0 0 4px #fff;
+}
+
+.icon-trash {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.contador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 15px; /* separa los elementos de forma uniforme */
+}
+
+.contador button {
+  display: flex;              /* activa flexbox dentro del botón */
+  align-items: center;        /* centra verticalmente */
+  justify-content: center;    /* centra horizontalmente */
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  background-color: #a7adb3; /* gris estilo Bootstrap */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contador button:hover {
+  background-color: #5a6268; /* un gris más oscuro al pasar el mouse */
+}
+
+.contador span {
+  font-size: 20px;
+  font-weight: bold;
+}
